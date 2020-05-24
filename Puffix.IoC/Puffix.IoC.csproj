@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/EhRom/Puffix.IoC</RepositoryUrl>
     <Copyright>Copyright 2020 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
     <Description>Minimal library to map your IoC container in your project.</Description>
+    <PackageTags>IoC Puffix</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
