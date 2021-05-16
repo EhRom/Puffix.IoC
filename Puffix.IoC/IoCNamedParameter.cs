@@ -6,7 +6,7 @@
 
         public object Value { get; }
 
-        private IoCNamedParameter(string name, object @value)
+        public IoCNamedParameter(string name, object @value)
         {
             Name = name;
             Value = @value;
