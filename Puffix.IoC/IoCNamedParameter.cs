@@ -2,7 +2,7 @@
 {
     public class IoCNamedParameter
     {
-        public string Name { get; }
+        public string Name { get; } = string.Empty;
 
         public object Value { get; }
 
