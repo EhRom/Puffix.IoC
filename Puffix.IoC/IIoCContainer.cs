@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace Puffix.IoC
-{
-    public interface IIoCContainer
-    {
-        ObjectT Resolve<ObjectT>(params IoCNamedParameter[] parameters)
-            where ObjectT : class;
+namespace Puffix.IoC;
 
-        object Resolve(Type objectType, params IoCNamedParameter[] parameters);
-    }
+public interface IIoCContainer
+{
+    ObjectT Resolve<ObjectT>(params IoCNamedParameter[] parameters)
+        where ObjectT : class;
+
+    object Resolve(Type objectType, params IoCNamedParameter[] parameters);
 }

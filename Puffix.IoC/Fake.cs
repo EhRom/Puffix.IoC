@@ -1,4 +1,3 @@
-﻿namespace Puffix.IoC
-{
-    public class Fake { }
-}
+﻿namespace Puffix.IoC;
+
+public class Fake { }
