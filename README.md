@@ -81,7 +81,6 @@ public class IoCContainer : IIoCContainer
 }
 ```
 
-
 The container must be initialized:
 ``` csharp
 IIoCContainer container = IoCContainer.BuildContainer();
